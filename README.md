@@ -41,21 +41,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn nltk jupyter
 ```
 
 ## How to Run
-
-1. Clone this repository:
-
-   ```bash
-   git clone <your-repository-url>
-   cd <repository-folder>
-   ```
-
-2. Confirm that `WELFake_Dataset.csv` is in the same directory as `Fake_News_Detection.ipynb`.
+1. Confirm that `WELFake_Dataset.csv` is in the same directory as `Fake_News_Detection.ipynb`.
 
    Download the dataset from Kaggle and place the file in the project directory using the exact filename `WELFake_Dataset.csv`.
 
-3. Open the notebook in Jupyter or Visual Studio Code.
+2. Open the notebook in Jupyter or Visual Studio Code.
 
-4. Run the cells from top to bottom.
+3. Run the cells from top to bottom.
 
 The first cell downloads the required NLTK resources. The notebook then creates these image files:
 
