@@ -1,6 +1,6 @@
 # Fake News Detection Using Machine Learning
 
-An NLP classification project that predicts whether a news article is real or fake using the WELFake dataset and three machine-learning models.
+A Machine Learning & NLP classification project that predicts whether a news article is real or fake using the WELFake dataset and three machine-learning models.
 
 ## Project Overview
 
