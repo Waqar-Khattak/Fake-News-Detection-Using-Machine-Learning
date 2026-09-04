@@ -14,7 +14,7 @@ The models are evaluated using accuracy, precision, recall, F1-score, classifica
 
 ## Dataset
 
-This project uses the [WELFake dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification), stored locally as `WELFake_Dataset.csv`.
+This project uses the [WELFake dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification). The dataset is not stored in this repository because the CSV file is larger than GitHub's 100 MB file limit.
 
 The dataset contains news titles, article text, and binary labels:
 
@@ -50,6 +50,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn nltk jupyter
    ```
 
 2. Confirm that `WELFake_Dataset.csv` is in the same directory as `Fake_News_Detection.ipynb`.
+
+   Download the dataset from Kaggle and place the file in the project directory using the exact filename `WELFake_Dataset.csv`.
 
 3. Open the notebook in Jupyter or Visual Studio Code.
 
@@ -100,8 +102,8 @@ Based on these results, **LinearSVC** is the best-performing model in this exper
 ```text
 .
 |-- Fake_News_Detection.ipynb
-|-- WELFake_Dataset.csv
 |-- README.md
+|-- .gitignore
 ```
 
 ## Author

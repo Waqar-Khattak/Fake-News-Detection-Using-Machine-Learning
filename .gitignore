@@ -1,0 +1,11 @@
+WELFake_Dataset.csv
+
+# Generated notebook figures
+label_distribution.png
+word_count_distribution.png
+confusion_matrices.png
+model_comparison.png
+
+# Python and notebook cache files
+__pycache__/
+.ipynb_checkpoints/
